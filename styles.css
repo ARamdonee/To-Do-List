@@ -1,0 +1,112 @@
+.apparea{ /*allign everything in the container in the center
+    adds a border to it */
+text-align: center;
+margin: auto;
+width: 50%;
+border:transparent;
+padding: 0% 5% 0 5% ;
+background-color: rgb(40, 87, 87);
+box-shadow: 5px 10px rgb(68, 93, 122);
+
+}
+#header{
+    color: aliceblue;
+    font-family: cursive;
+    text-shadow: 10px 5px 6px rgb(26, 56, 56);
+
+}
+
+body{
+    /*pulls down the body */
+    padding-top: 10%;
+    background-color: rgb(26, 56, 56);
+    background: radial-gradient( rgb(123, 189, 189) 0, rgb(121, 189, 189) 5%,rgb(40, 87, 87) 100%);
+}
+
+legend{
+    /*places the text in the left side of the fieldset */
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+    text-shadow: 2px 5px 6px rgb(26, 56, 56);
+}
+
+.inputContainer{
+    
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    background-color:transparent;
+    margin-left: 3%;
+    margin-top: 3%;
+    border: transparent;
+}
+
+/*text field*/
+#taskInput{
+position: absolute;
+width: 270px;
+height: 40px;
+margin-left: -150px;
+margin-top: 3px;
+border: transparent;
+border-radius: 15px;
+background: linear-gradient(180deg, rgb(194, 248, 255),rgb(131, 222, 250),rgb(117, 206, 241));
+text-align: center;
+color: rgb(39, 63, 85);
+font-family: cursive;
+}
+
+
+
+/*Add button*/
+#addtask{
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 90px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+    border: transparent;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgb(232, 255, 255) 0, rgb(156, 233, 233) 5%,rgb(98, 207, 207) 100%);
+    box-shadow: 3px 5px rgb(68, 93, 122);
+    color: rgb(90, 97, 104);
+    font-family: cursive;
+    text-shadow: 0px 1px 1px rgb(26, 56, 56);
+}
+
+#addtask:active{
+    transform: translateY(2px) !important;
+}
+
+/*field set */
+#inputarea{
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    background: rgb(40, 87, 87);
+    border: transparent;
+    border-top: solid rgb(121, 189, 189);
+}
+
+.listContainer{
+    padding-top: 20px;
+    text-align: left;
+    margin: auto;
+    width: 250px;
+    font-size: 20px;
+    font-family: cursive;    
+    color: rgb(1, 21, 37);
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgb(220, 223, 223);
+}
+
+
+
+
+
+

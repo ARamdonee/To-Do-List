@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--specifies the character encoding for the document-->
+        <!--telling the browser how to interprete the data-->
+        <meta charset="UTF-8">
+        <!-- HTTP header-->
+        <!--telling the browser which version of internet explorer should be used to render the page-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--Instruct the browser to display the content so that it fits to the screen of the device-->
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>To-Do List</title>
+        <!--Link to css ans js file -->
+        <link rel="stylesheet" href="C:\Users\Atishay\Documents\web development\website\to do list\styles.css">
+        <script type="text/javascript" src="C:\Users\Atishay\Documents\web development\website\to do list\scrypt.js"></script>
+
+    </head>
+    <body>
+        <Div class="apparea">
+        <h1 id="header">To-Do List</h1>
+        <fieldset id= "inputarea">
+            <legend id="legend">Mapping out the day, one task at a time.</legend>
+            <div class="inputContainer">
+            <input type="text" id="taskInput" class="taskInput" placeholder="Enter task"><br/>
+        </div>
+        
+            <button type="button" id="addtask" onclick="addtask()">Add</button>
+        </fieldset>
+    </Div>
+        <div class="listContainer">
+        <ul id= "tasklist"></ul>
+    </div>
+
+    
+    </body>
+
+</html>
